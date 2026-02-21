@@ -2,18 +2,18 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+LES GO STDY🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: A SQUARE
 
 ### Team Members
-- Member 1: [Name] - [College]
+- Member 1: ADITHYA DS LBSITW POOJAPURA
 - Member 2: [Name] - [College]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+
 
 ### Project Description
 [2-3 lines about what your project does]
