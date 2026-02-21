@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Les Go Stdy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="bg">
+
+<div class="card">
+
+    <h1 class="logo">Les Go Stdy</h1>
+    <h2>Set Up Your Subjects</h2>
+
+    <form method="POST">
+
+        <input type="text" name="name" placeholder="Subject Name" required>
+
+        <select name="difficulty" required>
+            <option value="">Difficulty Level</option>
+            <option>Easy</option>
+            <option>Medium</option>
+            <option>Hard</option>
+        </select>
+
+        <input type="number" name="hours" placeholder="Study Time (hours/week)" required>
+
+        <button type="submit">Add Subject</button>
+
+    </form>
+
+    <h3>My Subjects</h3>
+
+    {% for subject in subjects %}
+    <div class="subject-item">
+        {{ subject.name }} ({{ subject.difficulty }}, {{ subject.hours }} hrs/week)
+    </div>
+    {% endfor %}
+
+</div>
+
+</body>
+</html>
