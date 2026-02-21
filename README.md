@@ -2,39 +2,85 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+LES GO STDY🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: A SQUARE
 
 ### Team Members
-- Member 1: [Name] - [College]
+- Member 1: ADITHYA DS - [LBSITW POOJAPURA]
 - Member 2: [Name] - [College]
 
-### Hosted Project Link
-[mention your project hosted link here]
+### Hosted Project Link:  http://127.0.0.1:5000
 
 ### Project Description
-[2-3 lines about what your project does]
+
+Les Go Stdy is a web-based study planning application developed using Python (Flask), HTML, and CSS. The purpose of this project is to help students organize their subjects, manage study time, and track important academic dates through an interactive and user-friendly interface.
+This system allows users to create an account, add subjects, define difficulty levels, allocate study hours, and view their study schedule using a calendar and timetable.
+The application improves productivity by helping students plan their learning efficiently and maintain consistency.
+
 
 ### The Problem statement
-[What problem are you solving?]
+
+Poor study planning –
+Forgetting exams and deadlines
+Unbalanced study time
+Lack of subject tracking
+No progress visibility
+Disorganized academic routine
+Manual planning confusion
+
+
 
 ### The Solution
-[How are you solving it?]
 
+
+Provides a structured study plan for students
+• Helps track subjects and allocated study hours
+• Shows exam dates and reminders using calendar
+• Ensures balanced time distribution for all subjects
+• Displays timetable for better schedule visibility
+• Organizes all study information in one place
+• Replaces manual planning with a simple digital system
 ---
 
 ## Technical Details
 
+
+Developed using Python Flask for backend functionality
+• Uses HTML and CSS for frontend design and user interface
+• Runs on a local web server (Flask server)
+• Created and managed using Visual Studio Code (VS Code)
+• Uses Flask routing to navigate between pages (login, register, subject, calendar, timetable)
+• Stores and processes user input through HTML forms and Flask request handling
+• Uses templates folder to manage all web pages
+• Runs on localhost (127.0.0.1:5000) in a web browser
+
+
 ### Technologies/Components Used
+Python – Used for backend logic and application development
+• Flask – Used as the web framework to handle routing and server
+• HTML – Used to create the structure of web pages
+• CSS – Used to design and style the user interface
+• Visual Studio Code (VS Code) – Used as the code editor
+• Web Browser – Used to run and test the application
+• Flask Local Server – Used to host the app on localhost
+
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: PYTHON,HTML,CSS
+- Frameworks used: Flask – A lightweight Python web framework used to build the web application, handle routing, and connect frontend with backend.
+- Libraries used: Flask – Main library used to create the web application
+• render_template – Used to load HTML pages from templates folder
+• request – Used to get data from HTML forms
+• redirect – Used to move from one page to another
+• url_for – Used to connect routes and pages properly
+- Tools used: Visual Studio Code (VS Code) – Used for writing and editing code
+• Web Browser (Chrome / Edge) – Used to run and test the application
+• Python Interpreter – Used to execute the Python Flask program
+• Flask Local Server – Used to host and run the web app on localhost
+• Operating System (Windows / Linux / Mac) – Used to run the development environment
 
 **For Hardware:**
 - Main components: [List main components]
@@ -46,13 +92,17 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
 
----
-
+User registration and login system
+• Add and manage study subjects
+• Set difficulty level for each subject
+• Allocate study hours for subjects
+• Calendar view for exam dates and reminders
+• Timetable to display study schedule
+• Track total allocated study hours
+• Simple, clean, and user-friendly interface
+• Organized digital study planning system
+• Easy navigation between all pages
 ## Implementation
 
 ### For Software:
@@ -83,10 +133,11 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+![WhatsApp Image 2026-02-21 at 10 08 50 AM](https://github.com/user-attachments/assets/44677f34-e820-4318-be7c-f44a92db0609)
+
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+
 *Add caption explaining what this shows*
 
 ![Screenshot3](Add screenshot 3 here with proper name)
@@ -96,7 +147,7 @@ List the key features of your project:
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
+
 *Explain your system architecture - components, data flow, tech stack interaction*
 
 **Application Workflow:**
@@ -400,9 +451,8 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- ADHIDHYA DS: Specific contributions - e.g., Frontend development, UI/UX design, Backend development
+  
 
 ---
 
