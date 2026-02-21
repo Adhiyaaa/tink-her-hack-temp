@@ -1,0 +1,21 @@
+<h2>Your Timetable</h2>
+
+<table border="1">
+
+<tr>
+<th>Subject</th>
+<th>Hours/week</th>
+</tr>
+
+{% for subject in subjects %}
+
+<tr>
+<td>{{ subject.name }}</td>
+<td>{{ subject.hours }}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<a href="/calendar">Calendar</a>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Les Go Stdy - Calendar</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#c7d2fe,#e0e7ff);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+/* Main card */
+.card{
+    background:white;
+    width:450px;
+    padding:25px;
+    border-radius:25px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+/* Logo */
+.logo{
+    font-size:26px;
+    font-weight:bold;
+    color:#4f46e5;
+}
+
+/* Title */
+.title{
+    font-size:22px;
+    margin:10px 0 20px 0;
+}
+
+/* Calendar box */
+.calendar-box{
+    background:#f8fafc;
+    padding:15px;
+    border-radius:20px;
+}
+
+/* Month */
+.month{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    padding:8px;
+    font-size:14px;
+    color:#555;
+}
+
+td{
+    padding:10px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+/* Highlight days */
+.active{
+    background:#bfdbfe;
+}
+
+/* Exam label */
+.exam{
+    background:#ef4444;
+    color:white;
+    padding:6px;
+    border-radius:10px;
+    font-size:13px;
+    margin-top:10px;
+}
+
+/* Toggle section */
+.toggle-section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:15px;
+    font-size:14px;
+}
+
+/* Switch */
+.switch{
+    width:40px;
+    height:20px;
+    background:#3b82f6;
+    border-radius:20px;
+}
+
+/* Hours text */
+.hours{
+    margin-top:20px;
+    font-weight:bold;
+}
+
+/* Button */
+.btn{
+    margin-top:15px;
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:25px;
+    font-size:16px;
+    color:white;
+    background:linear-gradient(to right,#4facfe,#00f2fe);
+    cursor:pointer;
+}
+
+.btn:hover{
+    opacity:0.9;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="logo">Les Go Stdy</div>
+
+<div class="title">Calendar & Dates</div>
+
+<div class="calendar-box">
+
+<div class="month">November 2024</div>
+
+<table>
+
+<tr>
+<th>Sun</th>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+<th>Sat</th>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>2</td>
+<td>4</td>
+<td class="active">5</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>6</td>
+<td>8</td>
+<td class="active">10</td>
+<td>11</td>
+<td class="active">12</td>
+<td></td>
+</tr>
+
+<tr>
+<td class="active">13</td>
+<td>14</td>
+<td>15</td>
+<td class="active">17</td>
+<td>18</td>
+<td class="active">19</td>
+<td></td>
+</tr>
+
+<tr>
+<td class="active">16</td>
+<td>19</td>
+<td>20</td>
+<td class="active">24</td>
+<td>25</td>
+<td>26</td>
+<td></td>
+</tr>
+
+<tr>
+<td class="active">25</td>
+<td>27</td>
+<td>28</td>
+<td colspan="4">
+<div class="exam">🎓 Chemistry Final Exam</div>
+</td>
+</tr>
+
+<tr>
+<td class="active">30</td>
+<td colspan="6"></td>
+</tr>
+
+</table>
+
+<div class="toggle-section">
+<span>Exam Reminder</span>
+<div class="switch"></div>
+</div>
+
+<div class="toggle-section">
+<span>Thanksgiving Holiday</span>
+<div class="switch"></div>
+</div>
+
+</div>
+
+<div class="hours">
+Total Allocated: 20 / 24 Hours
+</div>
+
+<form action="/timetable">
+<button class="btn">Save & Continue</button>
+</form>
+
+</div>
+
+</body>
+</html>
